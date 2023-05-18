@@ -206,7 +206,7 @@ export const QuickCast = ({ isActive, setIsActive }) => {
 
   return (
     <main
-      className={`dark relative left-0 right-0 z-50 mx-auto mb-32 mt-20 flex h-screen max-h-[525px] flex-col justify-between overflow-hidden rounded-lg border-[.5px] border-white/20 bg-black/20 px-4 text-[#DDDDDD] backdrop-blur-xl sm:w-full md:w-[750px] ${
+      className={`dark relative left-0 right-0 z-50 mx-auto mb-32 mt-20 flex h-screen max-h-[525px] flex-col justify-between overflow-hidden rounded-lg border-[.5px] border-white/20 bg-white/5 px-4 text-[#DDDDDD] backdrop-blur-xl sm:w-full md:w-[750px] ${
         isActive ? 'block' : 'hidden'
       }`}
       ref={mainRef}
