@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -19,6 +21,9 @@ module.exports = {
       },
       animation: {
         'text-shimmer': 'text-shimmer 2.5s ease-out infinite alternate',
+      },
+      fontFamily: {
+        gentium: ['"Gentium Plus"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

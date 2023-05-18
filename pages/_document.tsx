@@ -10,7 +10,7 @@ export default function Document() {
         <meta property="og:title" content="quickcast" />
         <meta
           property="og:description"
-          content="Quick launch ChatGPT with a single shortcut key."
+          content="Boost your efficiency with hotkeys and AI."
         />
         <meta property="og:site_name" content="quickcast" />
         <meta property="og:image" content="https://quickcast.lol/images/og-image.png" />
@@ -19,7 +19,7 @@ export default function Document() {
         <meta name="twitter:title" content="quickcast" />
         <meta
           name="twitter:description"
-          content="Quick launch ChatGPT with a single shortcut key."
+          content="Boost your efficiency with hotkeys and AI."
         />
         <meta name="twitter:image" content="https://quickcast.lol/images/og-image.png" />
 
